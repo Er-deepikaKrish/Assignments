@@ -14,36 +14,47 @@ public class Assignment2 {
 		semester[4] = "Sem5";
 
 		String [][] subjects = new String [5][6];
+		
+		//Sem1 subjects
 		subjects[0][0] = "Mathematics I";
 		subjects[0][1] = "Physics";
 		subjects[0][2] = "Chemistry";
 		subjects[0][3] = "Computer Programming";
 		subjects[0][4] = "Engineering Drawing Basic Electrical Eng.";
 		subjects[0][5] = "Electrical Eng.";
+		
+		//Sem2 subjects
 		subjects[1][0] = "Mathematics II";
 		subjects[1][1] = "Mechanics";
 		subjects[1][2] = "Environmental Sci.";
 		subjects[1][3] = "Basic Electronics";
 		subjects[1][4] = "Engineering Physics";
 		subjects[1][5] = "Engineering Graphics";
+		
+		//Sem3 subjects
 		subjects[2][0] = "Data Structures";
 		subjects[2][1] = "Discrete Mathematics";
 		subjects[2][2] = "Digital Electronics";
 		subjects[2][3] = "Operating Systems";
 		subjects[2][4] = "Signals and Systems";
 		subjects[2][5] = "Object-Oriented Prog.";
+		
+		//Sem4 subjects
 		subjects[3][0] = "Algorithms";
 		subjects[3][1] = "Computer Networks";
 		subjects[3][2] = "Database Systems";
 		subjects[3][3] = "Microprocessors";
 		subjects[3][4] = "Communication Eng.";
 		subjects[3][5] = "Software Engineering";
+		
+		//Sem5 subjects
 		subjects[4][0] = "Probability & Stats";
 		subjects[4][1] = "Probability & Stats";
 		subjects[4][2] = "Compiler Design ";
 		subjects[4][3] = "Theory of Computation";
 		subjects[4][4] = "Embedded Systems";
 		subjects[4][5] = "Computer Graphics";
+		
 	//Print Semester 2 Subject 4 and Subject 5 names.
 		
 		System.out.println("Semester 2 Subject 4 is " + subjects[1][3]);
@@ -52,7 +63,7 @@ public class Assignment2 {
 		
 		String [][][] marks = new String [5][6][6];
 			
-		
+		//Sem1 marks
 		marks[0][0][0] = "Pass(78)";
 		
 		marks[0][1][1] = "Pass(85)";
@@ -64,6 +75,8 @@ public class Assignment2 {
 		marks[0][4][4] = "Pass(88)";
 		
 		marks[0][5][5] = "Pass(79)";
+		
+		//Sem2 marks
 		
 		marks[1][0][0] = "Pass(82)";
 	
@@ -77,6 +90,8 @@ public class Assignment2 {
 	
 		marks[1][5][5] = "Pass(90)";
 		
+		//Sem3 marks
+		
 		marks[2][0][0] = "Pass(88)";
 		
 		marks[2][1][1] = "Pass(81)";
@@ -89,6 +104,8 @@ public class Assignment2 {
 	
 		marks[2][5][5] = "Pass(78)";
 		
+		//Sem4 marks
+		
 		marks[3][0][0] = "Pass(91)";
 		
 		marks[3][1][1] = "Pass(73)";
@@ -100,6 +117,8 @@ public class Assignment2 {
 		marks[3][4][4] = "Pass(76)";
 	
 		marks[3][5][5] = "Pass(87)";
+		
+		//Sem5 marks
 		
 		marks[4][0][0] = "Pass(86)";
 		

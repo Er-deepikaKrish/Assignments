@@ -21,7 +21,7 @@ public class Assignment1 {
 		
 		//Amount of money in a customer's bank account: 1000.50
 		
-		double balance = 1000.50;
+		double balance = 1000.50f;
 		System.out.println("4. Amount of money in a customer's bank account:"+ balance);
 		
 		//Person's email address: "john.doe@example.com"
