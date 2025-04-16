@@ -1,9 +1,6 @@
 package language.basics;
 
-public class Assignment3_Handson extends Employees{
-	
-	
-		 
+public class Assignment3_Handson extends Employees{		 
 		
 	public static void main(String[] args) {
 				
@@ -17,6 +14,8 @@ public class Assignment3_Handson extends Employees{
 				System.out.println(Obj1.empN[1] + " , " + Obj1.id[1]);
 				
 				System.out.println(Obj1.empN[2] + " , " + Obj1.id[2]);
+				
+				System.out.println(Obj1.empN.length);
 			
 				
 		 }
@@ -27,6 +26,7 @@ public class Assignment3_Handson extends Employees{
 		 String[] empN = {"Bharath", "ABC","123"};
 		 
 		 String[] id= {"1234", "1235","1236"};
+		 
 
 	}
 	
